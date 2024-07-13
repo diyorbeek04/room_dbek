@@ -1,0 +1,59 @@
+.footer{
+  width: 100%;
+  background-color: #2B2B2B;
+  margin-top: 100px;
+}
+
+.box{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.logo{
+  width: 8%;
+  img{
+    width: 100%;
+  }
+}
+
+.cards{
+  width: 85%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.card{
+  width: 22%;
+
+}
+
+.card_header{
+  width: 100%;
+  padding-left: 40px;
+  h6{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #fff;
+  }
+}
+
+.ul{
+  list-style: none;
+  li{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #fff;    
+  }
+}

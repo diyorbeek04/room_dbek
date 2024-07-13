@@ -1,0 +1,83 @@
+.box{
+  width: 100%;
+  padding: 100px;
+  background-color: #F2F2F2;
+}
+
+.header{
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 50.6px;
+  text-align: center;
+  color: #000;  
+}
+
+.cards{
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.card{
+  width: 30%;
+}
+
+.card_image{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_image img{
+  margin: 0px auto;
+}
+
+.card_text{
+  width: 100%;
+}
+
+.card_text p{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #1a1a1a;  
+}
+
+.bottom{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.bottom_button{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  background-color: #46856E;  
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.bottom_button:active{
+  transform: translateY(-5px);
+}

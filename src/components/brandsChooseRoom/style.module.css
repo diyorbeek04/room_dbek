@@ -1,0 +1,45 @@
+.brands_text{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.brands_text h1{
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  color: #1a1a1a;
+}
+.brands_text p{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.brands_logos{
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.brand_logo{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.brand_logo img{
+  margin: 0px auto;
+}

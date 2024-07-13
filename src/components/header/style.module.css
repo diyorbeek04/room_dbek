@@ -1,0 +1,129 @@
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header_top{
+  width: 100%;
+  background-color: #F4F4F4;
+}
+
+.top_box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding: 0;
+}
+
+.top_box p{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+.form select{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+.form select option{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header_bottom{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0px;
+}
+
+.bottom_box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 4%;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu{
+  width: 30%;
+}
+.menu ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu ul li a{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.icons{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons .first{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.icons .second{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14.4px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}

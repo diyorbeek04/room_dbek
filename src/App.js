@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import BarndsChooseRoomComponent from './components/brandsChooseRoom';
+import CoruselTopComponent from './components/coruselTop';
+import DesignTextComponent from './components/designText';
+import ExploreComponent from './components/explore';
+import FooterComponent from './components/footer';
+import HeaderComponent from './components/header';
+import HeroComponent from './components/hero';
+import ProductComponent from './components/product';
+import ReviewsComponent from './components/reviews';
+import ShopComponent from './components/shop';
+import TrialComponent from './components/trial';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderComponent />
+      <HeroComponent />
+      <DesignTextComponent />
+      <ProductComponent />
+      <BarndsChooseRoomComponent />
+      <CoruselTopComponent />
+      <ExploreComponent />
+      <ReviewsComponent />
+      <ShopComponent />
+      <TrialComponent />
+      <FooterComponent />
+    </>
   );
 }
 

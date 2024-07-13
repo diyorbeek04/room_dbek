@@ -1,0 +1,62 @@
+.shop_header{
+  width: 70%;
+  margin: 0px auto;
+}
+.shop_header h3{
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+  color: #aaa;
+}
+.shop_header h2{
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+  color: #000;
+}
+
+.shop_body{
+  width: 100%;  
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.card .card_image{
+  width: 60%;
+
+}
+.card_image img{
+  width: 100%;
+}
+
+.card_text{
+  width: 30%;
+}
+
+.card_text h2{
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+.card_text p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #aaa;
+}
