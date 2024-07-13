@@ -8,7 +8,7 @@ const FooterComponent = () => {
       <div className="container">
         <div className={styles.box}>
           <div className={styles.logo}>
-            <img src={WhiteLogo} alt="" />
+            <img src={WhiteLogo} alt="white logo" />
           </div>
           <div className={styles.cards}>
             <div className={styles.card}>

@@ -15,21 +15,21 @@ function CoruselTopComponent() {
               <img
                 src="https://roohome.com/wp-content/uploads/2017/07/small-luxury-apartment-with-faux-fireplace.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="image"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="https://img.staticmb.com/mbcontent/images/crop/uploads/2024/3/small-living-room-ideas_0_1200.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="image"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdRr56dgYXhSDENzK7qarP78LK-_HkzxNWiMDQe-cHo0KJ9GL1Ycm_1hYoUg6GYukSSYs&usqp=CAU"
                 class="d-block w-100"
-                alt="..."
+                alt="image"
               />
             </div>
           </div>
