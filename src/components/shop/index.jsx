@@ -6,7 +6,7 @@ import ShopThirdImage from '../../images/shop/3.png'
 
 const ShopComponent = () => {
   return (
-    <div>
+    <div id='shop'>
       <div className='container'>
         <div className={styles.shop_header}>
           <h3>We take a human approach to a business-to-business industry, breaking the boundaries between corporate and personal, and rethinking every step of the user experience along the way.</h3>

@@ -6,7 +6,7 @@ import ExploreThirdImage from "../../images/explore/3.png";
 
 const ExploreComponent = () => {
   return (
-    <div className={styles.explore}>
+    <div id="explore" className={styles.explore}>
       <div className="container">
         <div className={styles.header}>
           <h2>

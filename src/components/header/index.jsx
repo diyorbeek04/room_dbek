@@ -31,8 +31,8 @@ const HeaderComponent = () => {
             <div className={styles.menu}>
               <ul>
                 <li><a href="#product">products</a></li>
-                <li><a href="#">explore</a></li>
-                <li><a href="#">shop</a></li>
+                <li><a href="#explore">explore</a></li>
+                <li><a href="#shop">shop</a></li>
               </ul>
             </div>
             <div className={styles.icons}>
